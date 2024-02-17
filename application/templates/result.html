@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}Prediction{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='css/result.css')}}" />
+<div class="min-h-screen bg-[#7A2648]">
+    <div class="centered-content text-center">
+        <!-- Image -->
+        <img src="{{ url_for('static', filename='images/car_result.png') }}" alt="Success" width="500" class="mx-auto" />
+        <!-- Success Message -->
+        <!-- Display Prediction Result -->
+        {% if prediction_result %}
+            <h2 class="text-white poppins-bold mt-5">YOUR CAR'S PRICE IS : $ {{ prediction_result }}</h2>
+        {% endif %}
+
+        <!-- Return to Home Link -->
+        <a href="/index" class="text-white text-lg poppins-semibold mt-5">
+            <button class="return-button">RETURN HOME</button>
+        </a>
+        
+    </div>
+</div>
+<script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+{% endblock %}

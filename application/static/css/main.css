@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #000; /* Assuming a dark theme from the wireframe */
+    color: #fff;
+}
+
+header {
+    background: #1a1a1a;
+    padding: 1em;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000 !important; 
+    color: #fff; 
+    padding: 10px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 15px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.hero {
+    background: url('../images/headerimg.png') no-repeat center center; 
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px; 
+    position: relative;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+#prediction-button, .btn {
+    display: block;
+    margin: 20px auto; 
+    padding: 9px 9px; 
+    border-radius: 8px;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+}
+
+.btn {
+    margin-top: 40px;
+    background-color:white;
+    color: black;
+}
+
+.alert-error {
+    color: rgb(231, 72, 72);
+}
+
+.error-message {
+    color: rgb(231, 72, 72);
+    font-size: 14px;
+}
+
+footer {
+    background: #262626;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 1200px) { 
+    .about-text {
+        padding-left: 225px;
+        padding-right: 225px;
+    }
+}
+
+@media (max-width: 768px) { 
+    #prediction-button {
+        font-size:18px;
+        width:70%;
+    }
+}
+
+.form-section {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.car-prediction-form {
+    margin: 0 auto;
+    max-width:60%;
+    font-size: 15px;
+}
+
+.form-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #aaa; /* Icon color */
+}
+
+.form-control {
+    padding-left: 35px; 
+    /* Other styles */
+    background-color: #2c3034;
+    color: white;
+    border: 1px solid #495057;
+    border-radius: .25rem;
+    font-size:14px;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+  
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .car-prediction-form .form-group {
+        margin-bottom: 0.5rem;
+    }
+}

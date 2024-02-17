@@ -1,0 +1,118 @@
+<mxfile host="app.diagrams.net" modified="2023-12-03T22:57:23.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9yLZd3JfJUaW4l9w2oiD" version="22.1.5" type="gitlab">
+  <diagram name="Page-1" id="X_P0FvviCffO6a2EwYk1">
+    <mxGraphModel dx="2625" dy="1460" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-2" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry width="1650" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-3" value="&lt;font color=&quot;#030303&quot;&gt;CarValuify&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=30;fontStyle=1;fontColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="60" y="22.5" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-4" value="Home" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=23;fontStyle=0;fontColor=#030303;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="20" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-5" value="Profile" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=23;fontStyle=0;fontColor=#030303;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="22.5" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="811.8600000000005" y="1760" as="sourcePoint" />
+            <mxPoint x="811.8600000000005" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-7" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FF334E;fillColor=#030303;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="680" y="340" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-8" value="&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot; face=&quot;Poppins&quot;&gt;CARVALUIFY&amp;nbsp;&lt;/font&gt;&lt;/h4&gt;&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;font-size: 30px; font-family: Poppins; background-color: initial; font-weight: normal;&quot;&gt;YOUR ONE-STOP CAR PRICE PREDICTOR&lt;/span&gt;&lt;br&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="415" y="230" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-9" value="BEGIN YOUR PREDICTION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=18;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="710" y="350" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-10" value="&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot; face=&quot;Poppins&quot;&gt;ABOUT CARVALUIFY&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="375.22" y="540" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-11" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Poppins&quot; face=&quot;Poppins&quot;&gt;Welcome to CarValuify, your trusted source for providing reliable car price predictions. We understand the importance of making informed decisions when it comes to buying or selling a car.&lt;br style=&quot;box-sizing: border-box;&quot;&gt;&lt;br style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;&quot;&gt;That&#39;s why we&#39;ve created this platform to empower car enthusiasts, buyers, sellers, and professionals with essential insights into the ever-changing automotive market.&lt;/span&gt;&lt;br style=&quot;box-sizing: border-box;&quot;&gt;&lt;br style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;&quot;&gt;Embark on your journey with CarValuify today and unlock the true value of your vehicle.&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="456.58" y="720" width="699.35" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;Image of Car&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="90" y="130" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-13" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.58000000000004" y="1050" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-14" value="&lt;h4 style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font face=&quot;Poppins&quot;&gt;&lt;span style=&quot;font-size: 30px;&quot;&gt;PREDICT YOUR CAR PRICES HERE&lt;/span&gt;&lt;/font&gt;&lt;/h4&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="372.58000000000004" y="910" width="820" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-15" value="Logout" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=23;fontStyle=0;fontColor=#030303;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="20" width="160" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="mYb4PXHkx-SL1y-wqAsg-5" target="mYb4PXHkx-SL1y-wqAsg-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-17" value="Enter Car Registration Year:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="483.94" y="1000" width="278.28" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-18" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="858.58" y="1050" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-19" value="Enter Mileage:" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="910.08" y="1000" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-20" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="864.86" y="1350" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-21" value="Enter Tax :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="902.14" y="1300" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-22" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="859.58" y="1185" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-23" value="Enter MPG :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="916.36" y="1140" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-24" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="864.86" y="1520" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-25" value="Enter Engine Size :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="916.36" y="1470" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-26" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.58000000000004" y="1190" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-27" value="Enter Transmission Type :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="493.46000000000015" y="1140" width="259.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-28" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="456.59000000000003" y="1520" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mYb4PXHkx-SL1y-wqAsg-29" value="Enter Fuel Type :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="508.08000000000004" y="1460" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Asko3f6QU78m7VCL_L5--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="872.86" y="1800" as="sourcePoint" />
+            <mxPoint x="872.86" y="1800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Asko3f6QU78m7VCL_L5--5" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FF334E;fillColor=#030303;strokeColor=#FFFFFF;" parent="1" vertex="1">
+          <mxGeometry x="656.36" y="1660" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Asko3f6QU78m7VCL_L5--6" value="PREDICT CAR VALUATION" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=18;fontColor=#FFFFFF;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="686.36" y="1670" width="340" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nuFX9t9kYlSjvDLgVaD2-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="466.36" y="1350" width="333" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nuFX9t9kYlSjvDLgVaD2-2" value="Enter Age of Car :" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="517.86" y="1300" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nuFX9t9kYlSjvDLgVaD2-3" value="© 2023 CARVALUIFY. ALL RIGHTS RESERVED." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Poppins;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DPoppins;fontSize=19;fontStyle=0" vertex="1" parent="1">
+          <mxGeometry x="616.36" y="1840" width="450" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

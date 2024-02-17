@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | CarValuify</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/fonts.css') }}">
+    {% endblock head %}
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+           <!--Image is set as background in login.css-->
+        </div>
+        <div class="right-column poppins-medium">
+            <h2>WELCOME BACK TO CARVALUIFY!</h2>
+            <form class="login-form" action="/login" method="post" novalidate>
+                {{ form.hidden_tag() }}
+                <div class="poppins-regular">
+                    {{ form.username.label(class_='form-label') }}
+                    {{ form.username(class_='form-input rounded w-full p-2 poppins-regular', id_='username', type_='text', placeholder_='Enter Username') }}
+                    {% for error in form.username.errors %}
+						<span class="text-red">{{ error }}</span>
+					{% endfor %}
+                </div>
+                <div class="poppins-regular" style="margin-top: 20px;">
+                    {{ form.password.label(class_='form-label mt-3') }}
+                    {{ form.password(class_='form-input rounded w-full p-2 poppins-regular', id_='password', type_='password', placeholder_='*******') }}
+                    {% if form.password.errors %}
+                        {% for error in form.password.errors %}
+							<span class="text-red">{{ error }}</span>
+						{% endfor %}
+					{% else %}
+						{% for message in get_flashed_messages() %}
+							<span class="text-red">{{ message }}</span>
+						{% endfor %}
+					{% endif %}
+                </div>
+                {{ form.submit(class='btn poppins-semibold') }}
+        </div>
+    </div>
+</body>
+</html>

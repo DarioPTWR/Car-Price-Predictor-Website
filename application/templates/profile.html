@@ -1,0 +1,59 @@
+{% extends "layout.html" %}
+{% block title %}Your Profile{% endblock %}
+{% block content %}
+<body>
+    <div>
+        <div>
+            <h2 class='poppins-bold text-center mt-5 pt-4'>WELCOME BACK, STUDENT.</h2>
+            <p class='poppins-regular text-center'>Check out your latest car valuation histories below.</p>
+            <div class='table-responsive mt-5'>
+                <table class="table table-bordered text-center">
+                    <thead class='poppins-medium text-black' style='font-size:13px; background-color:white'>
+                        <tr>
+                            <th>Year of Registration</th>
+                            <th>User ID</th>
+                            <th>Mileage</th>
+                            <th>MPG</th>
+                            <th>Car Age</th>
+                            <th>Tax</th>
+                            <th>Fuel Type</th>
+                            <th>Transmission Type</th>
+                            <th>Engine Size</th>
+                            <th>Price ($)</th>
+                            <th>Date</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody class='poppins-regular text-white' style='font-size:13px;'>
+                        {% for entry in entries %}
+                        <tr>
+                            <td class='align-middle'>{{ entry.year_of_registration }}</td>
+                            <td class='align-middle'>{{ entry.userid }}</td>
+                            <td class='align-middle'>{{ entry.mileage }}</td>
+                            <td class='align-middle'>{{ entry.mpg }}</td>
+                            <td class='align-middle'>{{ entry.age_of_car }}</td>
+                            <td class='align-middle'>{{ entry.tax }}</td>
+                            <td class='align-middle'>{{ entry.fuel_type }}</td>
+                            <td class='align-middle'>{{ entry.transmission_type }}</td>
+                            <td class='align-middle'>{{ entry.engine_size }}</td>
+                            <td class='align-middle'>{{ entry.prediction }}</td>
+                            <td class='align-middle'>{{ entry.predicted_on.strftime("%d %b %y %H:%M") }}</td>
+                            <td>
+                                <form name="frmRemoveEntry" action="/remove" method="post" novalidate>
+                                <input type="hidden" name="id" value="{{entry.id}}">
+                                <input type="submit" class="form-control" style="background: none; border: none; padding: 0; color: inherit;" value="❌">
+                                </form>
+                            </td>
+                        </tr>
+                        {% else %}
+                        <tr class='poppins-bold mt-5' style='color: rgb(231, 72, 72); font-size:16px;'>
+                            <td colspan="12">NO CAR VALUATION ENTRIES FOUND.</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>                
+            </div>
+        </div>
+    </div>
+</body>
+{% endblock %}

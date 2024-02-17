@@ -1,0 +1,116 @@
+<!-- Inherits from layout.html -->
+{% extends "layout.html" %}
+{% block title %}Home{% endblock %}
+<!-- The block content replace the one encapsulated in layout.html -->
+{% block content %}
+<main>
+    <section class="hero poppins-semibold">
+        <div class="hero-content mt-5 pt-2">
+            <h1 style='letter-spacing:1px;'>CARVALUIFY</h1>
+            <h2 class='pt-4 mb-5'>YOUR ONE-STOP CAR PRICE PREDICTOR</h2>
+            <a href="#prediction-section" style="text-decoration: none;">
+                <button id='prediction-button'>BEGIN YOUR PREDICTION</button>
+            </a>
+        </div>
+    </section>
+    
+    <section class="about text-center">
+        <h2 class='poppins-semibold mt-4'>ABOUT CARVALUIFY</h2>
+        <p class='about-text poppins-regular mt-5' style='line-height:1.9; font-size:15px;'>Welcome to CarValuify, your trusted source for providing reliable car price predictions. We understand the importance of making informed decisions when it comes to buying or selling a car.<br><br>That's why we've created this platform to empower car enthusiasts, buyers, sellers, and professionals with essential insights into the ever-changing automotive market.<br><br>Embark on your journey with CarValuify today and unlock the true value of your vehicle.</p>
+    </section>
+
+    <section class="text-center">
+        <h2 class='poppins-semibold mt-5 pt-3'>PREDICT YOUR CAR PRICE BELOW</h2>
+
+        <!-- Prediction Form Section -->
+        <form name="formPredict" id='prediction-section' action="/predict" method="post" class="car-prediction-form mx-auto poppins-regular mt-5" novalidate>
+            {{ form.hidden_tag() }}
+
+            <div class="row">
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-calendar-alt icon"></i>
+                    {{ form.year_of_registration.label }}
+                    {{ form.year_of_registration(class="form-control", placeholder="e.g., 2015") }}
+                    {% for error in form.year_of_registration.errors %}
+                    <span class="error-message" style="font-size: 13px;">{{ error }}</span>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-road icon"></i>
+                    {{ form.mileage.label }}
+                    {{ form.mileage(class="form-control", placeholder="e.g., 10000") }}
+                    {% for error in form.mileage.errors %}
+                    <span class="error-message" style="font-size: 13px;">{{ error }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="row mt-1">
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-exchange-alt icon"></i>
+                    {{ form.transmission_type.label }}
+                    {{ form.transmission_type(class="form-control") }}
+                    {% for error in form.transmission_type.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-tachometer-alt icon"></i>
+                    {{ form.mpg.label }}
+                    {{ form.mpg(class="form-control", placeholder="e.g., 30") }}
+                    {% for error in form.mpg.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row mt-1">
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-car icon"></i>
+                    {{ form.age_of_car.label }}
+                    {{ form.age_of_car(class="form-control", placeholder="e.g., 5") }}
+                    {% for error in form.age_of_car.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-hand-holding-usd icon"></i>
+                    {{ form.tax.label }}
+                    {{ form.tax(class="form-control", placeholder="e.g., 200") }}
+                    {% for error in form.tax.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+
+            <div class="row mt-1">
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-gas-pump icon"></i>
+                    {{ form.fuel_type.label }}
+                    {{ form.fuel_type(class="form-control") }}
+                    {% for error in form.fuel_type.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+                <div class="col-md-6 form-group has-icon">
+                    <i class="fas fa-cogs icon"></i>
+                    {{ form.engine_size.label }}
+                    {{ form.engine_size(class="form-control", placeholder="e.g., 2.5") }}
+                    {% for error in form.engine_size.errors %}
+                    <span class="error-message" style="font-size: 13px; margin-top:5px">{{ error }}</span>
+                    {% endfor %}
+                </div>
+            </div>
+            
+            <div class="form-group mt-4 ">
+                {{ form.submit(class="btn poppins-semibold") }}
+            </div>
+
+            <!-- Display success / failure message and prediction value -->
+            <div id="flash-message"></div>
+
+        </form>
+
+    </section>
+</main>
+{% endblock %}
